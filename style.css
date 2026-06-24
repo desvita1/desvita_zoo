@@ -27,7 +27,6 @@ header h1{
     to{ transform:scale(1.1); }
 }
 
-/* Navigasi tetap rapi */
 nav a{
     color:white;
     text-decoration:none;
@@ -40,14 +39,13 @@ nav a:hover {
     color: #ff9800;
 }
 
-/* Pengaturan khusus untuk Video agar responsif */
 .video-box {
     width: 90%;
     max-width: 800px;
     margin: 50px auto;
     background: white;
     padding: 30px;
-    text-align: center;
+    text-align: center; 
     border-radius: 20px;
     box-shadow: 0 0 20px gray;
 }
@@ -69,7 +67,6 @@ nav a:hover {
     border-radius: 10px;
 }
 
-/* Elemen lainnya yang sudah ada */
 .hero{ display:flex; align-items:center; justify-content:center; padding:60px; }
 .hero-img{ width:500px; border-radius:20px; animation:zoom 3s infinite alternate; }
 @keyframes zoom{ from{ transform:scale(1); } to{ transform:scale(1.05); } }
